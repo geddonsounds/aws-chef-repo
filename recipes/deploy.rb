@@ -6,7 +6,7 @@
 #
 
 service "apache2" do
-    action [:start, :enable]
+    action [:stop, :start, :enable]
 end
 
 cookbook_file "/var/www/html/index.html" do
