@@ -1,8 +1,36 @@
+
+<!DOCTYPE html>
 <html>
 <head>
-<title>Hello World Page</title>
+  <meta charset="utf-8">
+  <title>Sample Deployment</title>
+  <style>
+    body {
+      color: #ffffff;
+      background-color: #0000ff;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    
+    h1 {
+      font-size: 500%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+    
+    h2 {
+      font-size: 200%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+  </style>
 </head>
 <body>
-<center><h1>Hello World!</h1></center>
+  <div align="center">
+    <h1>Hello World</h1>
+    <h2>This was deployed using OpsWorks and Chef.</h2>
+    <p>We used a HelloWorldStack and  WebServer Layer </p>
+     <p>The Web Server Layer contained 3 web servers. One that runs 24/7, a Time-based and a Load Balancer.</p>
+  </div>
 </body>
 </html>
