@@ -1,37 +1,75 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Sample Deployment</title>
-  <style>
-    body {
-      color: #ffffff;
-      background-color: #0e1560;
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-    }
-    
-    h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-    
-    h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-  </style>
+    <meta charset="utf-8">
+  <title>Jerome's AWS Chef OpsWorks Deployment</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #1e6eaa;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
 </head>
 <body>
-  <div align="center">
-    <h1>Welcome To Chef</h1>
-    <h2>This was deployed using OpsWorks and Chef.</h2>
-    <p>We used a HelloWorldStack and  WebServer Layer </p>
-     <p>The Web Server Layer contained 3 web servers. One that runs 24/7, a Time-based and a Load Balancer.</p>
-     <p>Added an App to this stack to deploy the code changes. Added a undeploy recipe</p>
-  </div>
+
+<div class="container">
+
+<header>
+   <h1>Trinidad</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Armia</a></li>
+    <li><a href="#">Port-of-Spain</a></li>
+    <li><a href="#">San Fanando</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>London</h1>
+  <p>Arima is the easternmost and second largest in area of the three boroughs of Trinidad and Tobago. 
+    It is geographically adjacent to Sangre Grande and Arouca at the southcentral foothills of the Northern Range, 
+    and to the south is the Caroni-Arena Dam; in addition, Coterminous with Town of Arima since 1888, the borough of 
+    Arima is the fourth-largest municipality in population in the country (after Port of Spain, Chaguanas and San Fernando),
+    with a census-estimated 33,606[1] residents in 2011.</p>
+  <p>The town petitioned Queen Victoria for municipal status as part of her Golden Jubilee in 1887. This was granted in the following year, and Arima became a Royal Borough on 1 August 1888. Historically, the third town of Trinidad and Tobago, Arima has slid into fourth place as Chaguanas became the largest town in the country.</p>
+</article>
+
+<footer>Jerome's Chef auto scripts</footer>
+
+</div>
+
 </body>
 </html>
